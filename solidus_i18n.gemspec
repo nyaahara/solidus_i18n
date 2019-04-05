@@ -23,6 +23,7 @@ Gem::Specification.new do |s|
 
   s.add_runtime_dependency 'solidus_core', ['>= 1.1', '< 3']
 
+  s.add_development_dependency 'i18n-tasks', '~> 0.9.29'
   s.add_development_dependency 'pry-rails', '>= 0.3.0'
   s.add_development_dependency 'rubocop', '>= 0.24.1'
   s.add_development_dependency 'rspec-rails', '~> 3.1'
